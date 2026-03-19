@@ -1,16 +1,11 @@
-# React + Vite
+# Keyboard Tester
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una herramienta web para comprobar que todas las teclas del teclado funcionan correctamente.
 
-Currently, two official plugins are available:
+Presiona las teclas y observa cómo se iluminan en pantalla. Las teclas pulsadas se marcan en verde oscuro, y mientras las mantienes apretadas se ponen en verde brillante. Un indicador de progreso muestra cuántas teclas has probado del total.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Soporta tres tipos de teclado: **100%** (teclado completo con numpad), **TKL** (sin numpad) y **60%** (estilo RK61).
 
-## React Compiler
+## Uso
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Abre la app en el navegador y pulsa teclas. Usa el botón de reset para empezar de nuevo.
